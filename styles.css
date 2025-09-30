@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#hero{
+    background: url(images/port.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-tittle{
+    background-color:  #1D3557;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.hero-sub{
+    background-color: #457B9D;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#activities{
+    background: #F1FAEE;
+    padding: 40px 0;
+}
+
+#activities h3{
+    color: #1D3557;
+    margin-bottom: 30px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.child-activities{
+    padding: 20px;
+}
+
+.child-activities img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+h4, p{
+    color: #1D3557;
+    width: 300px;
+    padding: 10px;
+}
+
+#guide-section {
+    background: #A8DADC ;
+    border-bottom: 7px solid  #1D3557;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 30px 0;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+#ruth-pic{
+    width: 300px;
+    border-radius: 10px;
+}
+
+#guide-text{
+    width: 300px;
+    margin-left: 10px;
+}
+
+#guide-tittle{
+    color:  #1D3557;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#guide-description{
+    color:  #1D3557;
+    margin-bottom: 10px;
+    
+}
+
+#guide-name{
+    color:  #1D3557;
+    font-weight: 700;
+
+}
