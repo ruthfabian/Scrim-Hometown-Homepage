@@ -88,7 +88,6 @@ h4, p{
     margin: 50px auto;
     padding: 30px 0;
     border-radius: 10px;
-    flex-wrap: wrap;
 }
 
 #ruth-pic{
@@ -117,5 +116,16 @@ h4, p{
 #guide-name{
     color:  #1D3557;
     font-weight: 700;
+
+}
+
+@media (max-width: 780px){
+    #guide-section{
+        max-width: 100%;
+    }
+
+    #ruth-pic{
+        width: 260px;
+    }
 
 }
