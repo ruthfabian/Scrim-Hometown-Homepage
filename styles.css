@@ -18,6 +18,7 @@ body {
     text-align: center;
     text-align: center;
     font-family: 'Spinnaker', sans-serif;
+    background: white;
 }
 
 #hero{
@@ -38,6 +39,7 @@ body {
     padding: 5px 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    max-width: 80%;
 
 }
 
@@ -45,6 +47,7 @@ body {
     background-color: #457B9D;
     padding: 5px 10px;
     border-radius: 10px;
+    max-width: 90%;
 }
 
 #activities{
@@ -66,6 +69,7 @@ body {
 
 .child-activities{
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .child-activities img {
@@ -122,11 +126,12 @@ h4, p{
 
 @media (max-width: 780px){
     #guide-section{
-        max-width: 100%;
+        max-width: 95%;
+        flex-wrap: wrap;
     }
 
     #ruth-pic{
-        width: 260px;
+        width: 200px;
     }
 
 }
